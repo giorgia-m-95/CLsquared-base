@@ -2,7 +2,7 @@
 
 CLsquared is a command-line pipeline designed to identify and retain high-quality viral sequences from both public and private datasets. It flags sequences with unconfirmed mutation patterns as potentially incorrect, ensuring more reliable downstream analyses. Every filtering step in the pipeline is fully customizable, allowing users to fine-tune the process to their specific requirements.
 
-CLsquared is effective for processing large-scale datasets, such as SARS-CoV-2 or Monkeypox GISAID and NCBI repositories. 
+CLsquared is effective for processing large-scale datasets, such as GISAID or NCBI SARS-CoV-2 and Monkeypox repositories. 
 
 The CLsquared-base pipeline exploits the Python *polars* library to optimize computational efficiency. 
 Large FASTA files can be split into smaller chunks, which are processed sequentially further contributing to reduced computational time.
